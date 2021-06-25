@@ -4,7 +4,7 @@ USE spring;
 
 DROP TABLE IF EXISTS productos;
 CREATE TABLE productos (
-  id int(5) unsigned NOT NULL auto_increment,tblproductos
+  id int(5) unsigned NOT NULL auto_increment,
   nombre varchar(50) NOT NULL default '',
   precio int default "0",
   cantidad int default "0",
@@ -121,4 +121,4 @@ VALUES
 ("7","4","Woodstock","https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Portugal._The_Man_Woodstock_album_cover.jpg/220px-Portugal._The_Man_Woodstock_album_cover.jpg","3.99",'2017-06-17'),
 ("8","4","Ken","https://exclaim.ca/images/kenart.jpg","4.99",'2017-04-21'),
 ("9","5","Échame La Culpa","https://cdn.albumoftheyear.org/album/95135-chame-la-culpa.jpg","7.99",'2017-12-17'),
-("10","5","Dura","https://cdn.albumoftheyear.org/album/100162-dura.jpg","5.99",'2018-01-01');tblcategorias
+("10","5","Dura","https://cdn.albumoftheyear.org/album/100162-dura.jpg","5.99",'2018-01-01');
